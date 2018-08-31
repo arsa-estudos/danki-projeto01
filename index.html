@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Projeto 01</title>
 </head>
+
 <body>
     <div class="header">
         <div class="center">
             <img src="images/logo.png">
         </div>
     </div>
-    
+    <div class="container-banner">
+        <div class="center">
+            <div class="form">
+                <h2>Prencha o formulário e inicie sua caminhada para virar um webmaster!</h2>
+                <form>
+                    <div class="input-container">
+                        <span>Nome *</span>
+                        <input type="text" name="nome" required>
+                    </div>
+                    <div class="input-container">
+                        <span>Email *</span>
+                        <input type="text" name="email" required>
+                    </div>
+                    <div class="input-container">
+                        <span>Telefone *</span>
+                        <input type="text" name="telefone" required>
+                    </div>
+                    <p class="warning">* Campos obrigatórios</p>
+                    <div class="input-submit-container">
+                        <input type="submit" value="Enviar" name="acao">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
